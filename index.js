@@ -18,9 +18,8 @@ function johnLennonFacts(factArray) {
 
 function iLoveTheBeatles(num) {
   var emptyArray = []
-  var i;
   do {
-    emptyArray[i] = "I love the Beatles!"
+    emptyArray[num] = "I love the Beatles!"
     num = num + 1
   } while (num < 15)
   return emptyArray
