@@ -21,9 +21,7 @@ function iLoveTheBeatles(num) {
   num = 15-num
   do {
     emptyArray[num] = "I love the Beatles!"
-    if (num > 15){
-      return emptyArray
-    }
     num = num + 1
   } while (num < 15)
+  return emptyArray
 }
