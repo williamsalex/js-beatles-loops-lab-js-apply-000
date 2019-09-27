@@ -18,10 +18,11 @@ function johnLennonFacts(factArray) {
 
 function iLoveTheBeatles(num) {
   var emptyArray = []
-  num = 15-num
+  var arrayPos = 0
   do {
-    emptyArray[num] = "I love the Beatles!"
+    emptyArray[arrayPos] = "I love the Beatles!"
     num = num + 1
+    arrayPos = arrayPos + 1
   } while (num < 15)
   return emptyArray
 }
